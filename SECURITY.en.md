@@ -2,7 +2,7 @@
 
 ## Reporting Security Issues
 
-Please report security-sensitive issues to github@aletheion.cn.
+Please report security-sensitive issues to github@alethicinsight.org.
 
 Do not disclose sensitive vulnerabilities in public Issues.
 

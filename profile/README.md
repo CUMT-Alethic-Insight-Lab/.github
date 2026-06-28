@@ -13,7 +13,7 @@
   ·
   <a href="https://huggingface.co/Alethic-Insight">Hugging Face</a>
   ·
-  <a href="mailto:contact@aletheion.cn">Contact</a>
+  <a href="mailto:contact@alethicinsight.org">Contact</a>
   ·
   <a href="README.en.md">English</a>
   ·
@@ -88,6 +88,6 @@ Every AI-assisted contribution should disclose the model/tool, assisted parts, c
 
 ## Contact
 
-- Public contact: contact@aletheion.cn
-- GitHub contact: github@aletheion.cn
-- Hugging Face contact: hf@aletheion.cn
+- Public contact: contact@alethicinsight.org
+- GitHub contact: github@alethicinsight.org
+- Hugging Face contact: hf@alethicinsight.org

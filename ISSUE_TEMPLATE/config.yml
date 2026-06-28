@@ -1,9 +1,9 @@
 blank_issues_enabled: false
 contact_links:
   - name: Security-sensitive report
-    url: mailto:github@aletheion.cn
+    url: mailto:github@alethicinsight.org
     about: Please do not disclose sensitive vulnerabilities in public Issues.
   - name: Public contact
-    url: mailto:contact@aletheion.cn
+    url: mailto:contact@alethicinsight.org
     about: General public contact for CUMT Alethic Insight Lab.
 

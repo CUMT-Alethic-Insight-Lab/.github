@@ -21,5 +21,5 @@ CUMT Alethic Insight Lab is a student-led research-engineering community. We exp
 
 ## Reporting
 
-For conduct or safety concerns, contact github@aletheion.cn.
+For conduct or safety concerns, contact github@alethicinsight.org.
 

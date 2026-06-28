@@ -57,5 +57,5 @@ PR 应当：
 
 不要提交 API key、GitHub token、Hugging Face token、云服务凭证、邮箱凭证、恢复码、私有数据集、模型权重、大型生成文件、`.env` 文件或 SSH 私钥。
 
-安全敏感问题请发送至 github@aletheion.cn，不要在公开 Issue 中披露。
+安全敏感问题请发送至 github@alethicinsight.org，不要在公开 Issue 中披露。
 

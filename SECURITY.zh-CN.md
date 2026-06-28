@@ -2,7 +2,7 @@
 
 ## 报告安全问题
 
-安全敏感问题请发送至 github@aletheion.cn。
+安全敏感问题请发送至 github@alethicinsight.org。
 
 不要在公开 Issue 中披露敏感漏洞。
 

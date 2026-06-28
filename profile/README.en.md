@@ -38,7 +38,7 @@ AI-assisted contributions are welcome, but contributors must disclose, verify, t
 
 ## Contact
 
-- Public contact: contact@aletheion.cn
-- GitHub contact: github@aletheion.cn
+- Public contact: contact@alethicinsight.org
+- GitHub contact: github@alethicinsight.org
 - Website: https://aletheion.cn
 

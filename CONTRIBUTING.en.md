@@ -57,5 +57,5 @@ AI output must not be submitted blindly. Contributors must understand, verify, a
 
 Never commit API keys, GitHub tokens, Hugging Face tokens, cloud credentials, email credentials, recovery codes, private datasets, model checkpoints, large generated artifacts, `.env` files, or SSH private keys.
 
-Security-sensitive reports should be sent to github@aletheion.cn instead of public Issues.
+Security-sensitive reports should be sent to github@alethicinsight.org instead of public Issues.
 

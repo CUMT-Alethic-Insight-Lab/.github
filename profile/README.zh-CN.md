@@ -38,7 +38,7 @@
 
 ## 联系方式
 
-- 公开联系：contact@aletheion.cn
-- GitHub 联系：github@aletheion.cn
+- 公开联系：contact@alethicinsight.org
+- GitHub 联系：github@alethicinsight.org
 - 网站：https://aletheion.cn
 
