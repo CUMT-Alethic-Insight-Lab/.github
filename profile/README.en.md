@@ -1,6 +1,6 @@
-# CUMT Aletheion AI Lab
+# CUMT Alethic Insight Lab
 
-**CUMT Aletheion AI Lab** is a student-led AI society-lab and research-engineering community at **China University of Mining and Technology**.
+**CUMT Alethic Insight Lab** is a student-led AI society-lab and research-engineering community at **China University of Mining and Technology**.
 
 We work across:
 
@@ -12,9 +12,9 @@ We work across:
 - Open-source Practice;
 - Research-engineering training for undergraduate students.
 
-## About Aletheion
+## About Alethic Insight
 
-The name **Aletheion** is derived from the philosophical root *aletheia*, associated with truth, disclosure, and unconcealment.
+The name **Alethic Insight** is derived from the philosophical root *aletheia*, associated with truth, disclosure, and unconcealment.
 
 For this community, it means:
 

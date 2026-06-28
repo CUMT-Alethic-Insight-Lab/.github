@@ -1,10 +1,10 @@
-# 参与 CUMT Aletheion AI Lab 贡献
+# 参与 CUMT Alethic Insight Lab 贡献
 
-感谢你参与 CUMT Aletheion AI Lab 的建设。
+感谢你参与 CUMT Alethic Insight Lab 的建设。
 
 ## 规则继承原则
 
-除非具体仓库另有说明，CUMT Aletheion AI Lab 组织下的所有仓库默认遵循 `.github` 仓库中的组织级贡献规范和模板。
+除非具体仓库另有说明，CUMT Alethic Insight Lab 组织下的所有仓库默认遵循 `.github` 仓库中的组织级贡献规范和模板。
 
 若具体仓库拥有自己的 README、CONTRIBUTING.md、Issue 模板、Pull Request 模板或工作流规则，则以具体仓库规则为准。
 

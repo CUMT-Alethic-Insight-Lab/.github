@@ -1,6 +1,6 @@
-# CUMT Aletheion AI Lab GitHub 默认规则仓库
+# CUMT Alethic Insight Lab GitHub 默认规则仓库
 
-本 `.github` 仓库为 CUMT Aletheion AI Lab 提供组织级默认文件：
+本 `.github` 仓库为 CUMT Alethic Insight Lab 提供组织级默认文件：
 
 - 组织公开主页；
 - 贡献规范；
@@ -11,7 +11,7 @@
 
 ## 规则继承原则
 
-除非具体仓库另有说明，CUMT Aletheion AI Lab 组织下的所有仓库默认遵循本 `.github` 仓库中的组织级贡献规范和模板。
+除非具体仓库另有说明，CUMT Alethic Insight Lab 组织下的所有仓库默认遵循本 `.github` 仓库中的组织级贡献规范和模板。
 
 若具体仓库拥有自己的 README、CONTRIBUTING.md、Issue 模板、Pull Request 模板或工作流规则，则以具体仓库规则为准。
 

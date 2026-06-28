@@ -1,10 +1,10 @@
-# Contributing to CUMT Aletheion AI Lab
+# Contributing to CUMT Alethic Insight Lab
 
-Thank you for contributing to CUMT Aletheion AI Lab.
+Thank you for contributing to CUMT Alethic Insight Lab.
 
 ## Rule Inheritance
 
-Unless otherwise specified by a repository, all repositories under CUMT Aletheion AI Lab follow the organization-level contribution guidelines and templates defined in the `.github` repository.
+Unless otherwise specified by a repository, all repositories under CUMT Alethic Insight Lab follow the organization-level contribution guidelines and templates defined in the `.github` repository.
 
 If a repository has its own README, CONTRIBUTING.md, Issue templates, Pull Request templates, or workflow rules, the repository-specific rules take precedence.
 

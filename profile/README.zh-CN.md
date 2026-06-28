@@ -1,6 +1,6 @@
-# CUMT Aletheion AI Lab
+# CUMT Alethic Insight Lab
 
-**CUMT Aletheion AI Lab** 是中国矿业大学学生主导的 AI 社团实验室，兼具社团交流、研究训练、工程实践、开源协作与项目孵化功能。
+**CUMT Alethic Insight Lab** 是中国矿业大学学生主导的 AI 社团实验室，兼具社团交流、研究训练、工程实践、开源协作与项目孵化功能。
 
 我们关注：
 
@@ -12,9 +12,9 @@
 - 开源实践；
 - 面向本科生的研究工程训练。
 
-## 关于 Aletheion
+## 关于 Alethic Insight
 
-**Aletheion** 源于与真理、解蔽、显现相关的哲学词根 *aletheia*。
+**Alethic Insight** 源于与真理、解蔽、显现相关的哲学词根 *aletheia*。
 
 在本组织中，它指代：
 
