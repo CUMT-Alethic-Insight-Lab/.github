@@ -1,6 +1,6 @@
-# CUMT Aletheion AI Lab GitHub Defaults
+# CUMT Alethic Insight Lab GitHub Defaults
 
-This `.github` repository provides reusable organization-level defaults for CUMT Aletheion AI Lab:
+This `.github` repository provides reusable organization-level defaults for CUMT Alethic Insight Lab:
 
 - public organization profile;
 - contribution guidelines;
@@ -11,7 +11,7 @@ This `.github` repository provides reusable organization-level defaults for CUMT
 
 ## Rule Inheritance
 
-Unless otherwise specified by a repository, all repositories under CUMT Aletheion AI Lab follow the organization-level contribution guidelines and templates defined in this `.github` repository.
+Unless otherwise specified by a repository, all repositories under CUMT Alethic Insight Lab follow the organization-level contribution guidelines and templates defined in this `.github` repository.
 
 If a repository has its own README, CONTRIBUTING.md, Issue templates, Pull Request templates, or workflow rules, the repository-specific rules take precedence.
 

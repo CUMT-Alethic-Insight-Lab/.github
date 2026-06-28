@@ -1,6 +1,6 @@
 # Code of Conduct
 
-CUMT Aletheion AI Lab is a student-led research-engineering community. We expect members and contributors to maintain a serious, respectful, and learning-oriented collaboration environment.
+CUMT Alethic Insight Lab is a student-led research-engineering community. We expect members and contributors to maintain a serious, respectful, and learning-oriented collaboration environment.
 
 ## Expected Behavior
 
