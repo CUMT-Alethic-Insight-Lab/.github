@@ -1,3 +1,9 @@
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/logo-dark.png">
+  <source media="(prefers-color-scheme: light)" srcset="assets/logo-light.png">
+  <img src="assets/logo-dark.png" alt="Alethic Insight — 人工智能社团" width="420">
+</picture>
+
 # CUMT Alethic Insight Lab
 
 **CUMT Alethic Insight Lab** 是中国矿业大学学生主导的 AI 社团实验室，兼具社团交流、研究训练、工程实践、开源协作与项目孵化功能。

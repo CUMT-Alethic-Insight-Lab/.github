@@ -1,4 +1,8 @@
-<h1 align="center">Alethic Insight</h1>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/logo-dark.png">
+  <source media="(prefers-color-scheme: light)" srcset="assets/logo-light.png">
+  <img src="assets/logo-dark.png" alt="Alethic Insight — 人工智能社团" width="520">
+</picture>
 
 <p align="center">
   <strong>CUMT Alethic Insight Lab</strong>
