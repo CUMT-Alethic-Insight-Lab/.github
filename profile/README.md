@@ -80,6 +80,7 @@
 | Repository | Purpose |
 | --- | --- |
 | [website](https://github.com/CUMT-Alethic-Insight-Lab/website) | Public website source and deployment |
+| [recruitment-exam-platform](https://github.com/CUMT-Alethic-Insight-Lab/recruitment-exam-platform) | Recruitment machine-test platform, incl. open session-cleaning code |
 | [join-us](https://github.com/CUMT-Alethic-Insight-Lab/join-us) | Public recruitment process and preparation guide |
 | [governance-public](https://github.com/CUMT-Alethic-Insight-Lab/governance-public) | Public governance documents |
 | [awesome-ai](https://github.com/CUMT-Alethic-Insight-Lab/awesome-ai) | Curated AI learning and research-engineering resources |
