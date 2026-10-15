@@ -50,6 +50,9 @@
 | Join the lab | [join-us](https://github.com/CUMT-Alethic-Insight-Lab/join-us) |
 | Recruitment process | [Process](https://github.com/CUMT-Alethic-Insight-Lab/join-us/blob/main/docs/en/process.md) / [招新流程](https://github.com/CUMT-Alethic-Insight-Lab/join-us/blob/main/docs/zh-CN/process.md) |
 | Preparation guide | [Preparation](https://github.com/CUMT-Alethic-Insight-Lab/join-us/blob/main/docs/en/preparation.md) / [准备建议](https://github.com/CUMT-Alethic-Insight-Lab/join-us/blob/main/docs/zh-CN/preparation.md) |
+| Exam platform code review and downloads | [recruitment-exam-platform](https://github.com/CUMT-Alethic-Insight-Lab/recruitment-exam-platform) |
+| Onboarding in depth | [open-onboarding](https://github.com/CUMT-Alethic-Insight-Lab/open-onboarding) |
+| Curated AI resources | [awesome-ai](https://github.com/CUMT-Alethic-Insight-Lab/awesome-ai) |
 | Public governance | [governance-public](https://github.com/CUMT-Alethic-Insight-Lab/governance-public) |
 | Contribution rules | [CONTRIBUTING](https://github.com/CUMT-Alethic-Insight-Lab/.github/blob/main/CONTRIBUTING.md) |
 | AI assistance policy | [AI Assistance](https://github.com/CUMT-Alethic-Insight-Lab/governance-public/blob/main/docs/en/ai-assistance-policy.md) / [AI 辅助规则](https://github.com/CUMT-Alethic-Insight-Lab/governance-public/blob/main/docs/zh-CN/ai-assistance-policy.md) |
