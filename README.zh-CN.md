@@ -9,6 +9,13 @@
 - Pull Request 模板；
 - Issue 模板。
 
+## 仓库结构与变更
+
+- [仓库边界与迁移记录](MIGRATION.md)
+- [组织仓库变更日志](CHANGELOG.md)
+
+这些记录供维护者核对，不作为组织开屏的项目介绍。
+
 ## 规则继承原则
 
 除非具体仓库另有说明，CUMT Alethic Insight Lab 组织下的所有仓库默认遵循本 `.github` 仓库中的组织级贡献规范和模板。
