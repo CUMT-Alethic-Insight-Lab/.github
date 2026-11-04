@@ -4,6 +4,10 @@
 
 ## 2026-11-04
 
+### 仓库命名
+
+- `recruitment-exam-platform` 重命名为 `alethicinsight-platform`，以覆盖成员、组织业务与 infra 接口职责；GitHub 保留旧 URL 重定向。`recruitment-exam-kit` 名称不变。
+
 ### 文档
 
 - 在 `.github` 主根仓增加仓库边界与迁移记录。
