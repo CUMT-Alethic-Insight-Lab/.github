@@ -6,7 +6,7 @@
 
 | 仓库 | 当前职责 |
 | --- | --- |
-| `recruitment-exam-platform` | 招新与组织业务服务端、成员网页、组织 API、部署配置，以及 `infra/interface/alethicinsight-cli` 公共接口包 |
+| `alethicinsight-platform` | 招新与组织业务服务端、成员网页、组织 API、部署配置，以及 `infra/interface/alethicinsight-cli` 公共接口包 |
 | `recruitment-exam-kit` | 考生本地考试套件、会话清洗、安装器与局域网接收工具；名称保持不变 |
 | `website` | 公共官网及官网专属内容与交互 |
 | `open-onboarding` | 学习路径、实践顺序与协作入门 |
@@ -17,10 +17,11 @@ CLI 与本地 MCP 是同一 infra 接口包，不拆成独立 MCP 产品仓。`i
 
 ## 2026-11 分仓调整
 
-1. 组织接口和成员事务能力已合入 `recruitment-exam-platform` 主分支。
+1. 组织接口和成员事务能力已合入 `alethicinsight-platform` 主分支。
 2. `recruitment-exam-kit` 已从平台仓的 `exam_kit/` 子目录拆出，使用 Git subtree 保留相关历史。新仓是考生套件的权威源码。
-3. 平台仓通过独立 Pull Request 移除旧 `exam_kit/` 并更新跨仓链接；在合并前，平台 main 与套件仓可能同时包含该目录，不能把两份副本当作双主维护。
+3. 平台仓已通过独立 Pull Request 移除旧 `exam_kit/` 并更新跨仓链接，考生套件只在独立仓继续维护。
 4. 招新物料另设私有仓库，仅收纳经过审查的内容；原始个人信息和本地运行数据不进入公开迁移记录。
+5. `recruitment-exam-platform` 已重命名为 `alethicinsight-platform`，旧 URL 由 GitHub 保留重定向；`recruitment-exam-kit` 名称不变。
 
 ## 兼容与发布
 
