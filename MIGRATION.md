@@ -6,14 +6,20 @@
 
 | 仓库 | 当前职责 |
 | --- | --- |
-| `alethicinsight-platform` | 招新与组织业务服务端、成员网页、组织 API、部署配置，以及 `infra/interface/alethicinsight-cli` 公共接口包 |
+| `alethicinsight-platform` | 暂时承载两个产品：招新考试与内部成员/组织平台。审计基线 `229e69c` 尚共 DB、账号、启动流程；纠正 PR 计划根 `server/` 仅考试，内部产品在 `member-platform/server` 与 `member-platform/infra/...` 独立运行，源码待纠正 PR 合入 |
 | `recruitment-exam-kit` | 考生本地考试套件、会话清洗、安装器与局域网接收工具；名称保持不变 |
 | `website` | 公共官网及官网专属内容与交互 |
 | `open-onboarding` | 学习路径、实践顺序与协作入门 |
 | `awesome-ai` | 学习资源索引 |
 | `governance-public` | 正式公开制度 |
 
-CLI 与本地 MCP 是同一 infra 接口包，不拆成独立 MCP 产品仓。`infra-handoff` 继续承担私有运维交接，不作为公共客户端发行源。`Alethic-Insight-Frontend-Templates` 不属于本次调整范围。
+CLI 与本地 MCP 是同一**内部** infra 接口包，不拆成独立 MCP 产品仓，也不是考试套件依赖。`infra-handoff` 仅承担私有运维交接，不作为平台源码仓或公共客户端发行源。`Alethic-Insight-Frontend-Templates` 不属于本次调整范围。
+
+## 2026-11-04 追加纠正：先隔离运行，再决定仓库映射
+
+下方“已合入”与“已重命名”保留为历史事实，不代表运行隔离。审计确认 `origin/main=229e69c` 中组织 API 与考试共 DB、账号和启动流程，不能只改 README 冒称解耦。内部成员/组织平台不是考试增量。
+
+第一阶段在现有同源仓通过纠正 PR 审查 `member-platform/` 独立运行内部产品，根 `server/` 仅考试。**源码待纠正 PR 合入**，当前只链接现有仓库，不生成尚不存在的 `main/member-platform` 链接。远端重命名与独立仓映射另行处理；本次文档更正不进行生产部署、真实账号迁移或真实数据操作。
 
 ## 2026-11 分仓调整
 

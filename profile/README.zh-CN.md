@@ -8,6 +8,15 @@
 
 **CUMT Alethic Insight Lab** 是中国矿业大学学生主导的 AI 社团实验室，兼具社团交流、研究训练、工程实践、开源协作与项目孵化功能。
 
+## 两个产品
+
+| 产品 | 当前入口与边界 |
+| --- | --- |
+| 招新考试 | [考试服务端当前源码仓](https://github.com/CUMT-Alethic-Insight-Lab/alethicinsight-platform)与考生 [recruitment-exam-kit](https://github.com/CUMT-Alethic-Insight-Lab/recruitment-exam-kit) 套件；套件名称不变。 |
+| 内部成员与组织平台 | 暂与考试[同源仓](https://github.com/CUMT-Alethic-Insight-Lab/alethicinsight-platform)。成员事务、组织 API 及同包 CLI/MCP 属于内部产品，不是考试增量或套件依赖。 |
+
+**源码待纠正 PR 合入**：第一阶段目标为 `member-platform/server`、`member-platform/infra/...` 独立运行内部产品，根 `server/` 仅考试。审计基线 `229e69c` 中，组织 API 与考试仍共 DB、账号和启动流程，文档分栏不代表已解耦。先 PR 审查运行隔离，远端重命名与分仓映射另行处理；不预造新仓名或尚不存在的源码链接，不宣称已完成生产部署。维护者详见[边界纠正记录](https://github.com/CUMT-Alethic-Insight-Lab/.github/blob/main/MIGRATION.md)。
+
 我们关注：
 
 - 语言与 NLP；
