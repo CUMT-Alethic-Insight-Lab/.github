@@ -9,6 +9,13 @@ This `.github` repository provides reusable organization-level defaults for CUMT
 - Pull Request template;
 - Issue templates.
 
+## Repository Changes
+
+- [Repository boundaries and migration](MIGRATION.md)
+- [Organization repository changelog](CHANGELOG.md)
+
+These maintainer records are separate from the organization profile, which presents current projects rather than migration activity.
+
 ## Rule Inheritance
 
 Unless otherwise specified by a repository, all repositories under CUMT Alethic Insight Lab follow the organization-level contribution guidelines and templates defined in this `.github` repository.
