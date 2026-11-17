@@ -13,9 +13,7 @@
 | Product | Current entry and boundary |
 | --- | --- |
 | Recruitment exam | [Current exam-server repository](https://github.com/CUMT-Alethic-Insight-Lab/alethicinsight-platform) and candidate [recruitment-exam-kit](https://github.com/CUMT-Alethic-Insight-Lab/recruitment-exam-kit); the kit name stays unchanged. |
-| Internal member and organization platform | Temporarily in the [same source repository](https://github.com/CUMT-Alethic-Insight-Lab/alethicinsight-platform). Member workflows, organization API and the single CLI/MCP infra package are not exam extensions or kit dependencies. |
-
-**Source isolation pending correction PR:** first-stage target `member-platform/server` and `member-platform/infra/...` run the internal product independently; root `server/` serves exams only. At audit baseline `229e69c`, organization and exam APIs still share a database, accounts and startup flow. Review runtime isolation first; decide remote renaming and separate-repository mapping later. This page does not claim completed isolation, a new repository or production deployment. See [boundary correction](https://github.com/CUMT-Alethic-Insight-Lab/.github/blob/main/MIGRATION.md).
+| Internal member and organization platform | [alethicinsight-member-platform](https://github.com/CUMT-Alethic-Insight-Lab/alethicinsight-member-platform): member workflows, organization API and a single CLI/MCP infra package. This is an internal product, not an exam extension or candidate-kit dependency. |
 
 We work across:
 

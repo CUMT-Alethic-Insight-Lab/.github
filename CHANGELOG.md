@@ -2,7 +2,15 @@
 
 本文件只记录组织级仓库结构和公共规则变化。各项目的功能版本与发布说明仍由对应仓库维护。
 
-## 2026-11-04 追加纠正：两个产品，不以改名代替隔离
+## 2026-11-17：两个独立产品仓的导航
+
+- 隔离 PR [#6](https://github.com/CUMT-Alethic-Insight-Lab/alethicinsight-platform/pull/6) 已合并，合并提交与核对时的 `main` 为 `9dc7229`；“源码待纠正 PR 合入”不再是当前状态。
+- 内部成员与组织产品的独立仓名确定为 `alethicinsight-member-platform`，承接原 `member-platform/` 子树；考试保留 `alethicinsight-platform`，考生套件保留 `recruitment-exam-kit`。
+- 组织三语开屏仅展示当前两个产品及职责，不讲迁移；CLI/MCP 继续同包，归内部 infra，不作为考试套件依赖。`infra-handoff` 仅私有运维。
+- 新成员仓发布由产品维护者统一执行；含新仓链接的导航 PR 须待仓库可访问后再合入。此项依赖不等于已发布或已部署。
+- 下方 2026-11-04 的同仓隔离计划保留为历史，已由本条和 [MIGRATION.md](MIGRATION.md) 的当前映射取代。没有执行生产部署、真实账号迁移或跨仓验收。
+
+## 2026-11-04 追加纠正（历史计划，已由 2026-11-17 更新取代）
 
 - 组织开屏明确区分招新考试与内部成员/组织平台；内部产品不是考试增量，CLI/MCP 同包属于内部 infra，不是 `recruitment-exam-kit` 的依赖。套件名称不变，`infra-handoff` 仅私有运维。
 - 审计基线 `229e69c` 的组织 API 与考试仍共 DB、账号、启动流程；前述能力已合入与改名是历史事实，不等于已解耦或已部署。

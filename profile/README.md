@@ -37,9 +37,7 @@
 | Product 产品 | Entry and boundary 入口与边界 |
 | --- | --- |
 | Recruitment exam 招新考试 | [Exam server source / 考试服务端当前源码仓](https://github.com/CUMT-Alethic-Insight-Lab/alethicinsight-platform) + [recruitment-exam-kit](https://github.com/CUMT-Alethic-Insight-Lab/recruitment-exam-kit) candidate kit; the kit name stays unchanged. 考生套件名称不变。 |
-| Internal member and organization platform 内部成员与组织平台 | [Current shared source repository / 当前同源仓](https://github.com/CUMT-Alethic-Insight-Lab/alethicinsight-platform). Member workflows, organization API and the single CLI/MCP infra package are an internal product, not an exam extension or kit dependency. 成员事务、组织 API 与同包 CLI/MCP 属于内部产品，不是考试增量或套件依赖。 |
-
-**Source isolation pending correction PR / 源码待纠正 PR 合入：** the reviewed first-stage target is independently runnable `member-platform/server` and `member-platform/infra/...`, with root `server/` reserved for exams. At audit baseline `229e69c`, organization and exam APIs still share a database, accounts and startup flow. 文档分栏不代表已解耦；先审查同仓运行隔离，再决定远端重命名与分仓映射。No new repository or deployment is claimed / 不宣称新仓或部署已完成。See [boundary correction](https://github.com/CUMT-Alethic-Insight-Lab/.github/blob/main/MIGRATION.md) for maintainer details.
+| Internal member and organization platform 内部成员与组织平台 | [alethicinsight-member-platform](https://github.com/CUMT-Alethic-Insight-Lab/alethicinsight-member-platform): member workflows, organization API and a single CLI/MCP infra package. 成员事务、组织 API 与同包 CLI/MCP 属于内部产品，不是考试增量或考生套件依赖。 |
 
 ## Directions
 
@@ -59,7 +57,8 @@
 | Join the lab | [join-us](https://github.com/CUMT-Alethic-Insight-Lab/join-us) |
 | Recruitment process | [Process](https://github.com/CUMT-Alethic-Insight-Lab/join-us/blob/main/docs/en/process.md) / [招新流程](https://github.com/CUMT-Alethic-Insight-Lab/join-us/blob/main/docs/zh-CN/process.md) |
 | Preparation guide | [Preparation](https://github.com/CUMT-Alethic-Insight-Lab/join-us/blob/main/docs/en/preparation.md) / [准备建议](https://github.com/CUMT-Alethic-Insight-Lab/join-us/blob/main/docs/zh-CN/preparation.md) |
-| Exam server (internal product listed separately above) | [Current exam-server repository](https://github.com/CUMT-Alethic-Insight-Lab/alethicinsight-platform) |
+| Recruitment exam server | [alethicinsight-platform](https://github.com/CUMT-Alethic-Insight-Lab/alethicinsight-platform) |
+| Internal member and organization platform | [alethicinsight-member-platform](https://github.com/CUMT-Alethic-Insight-Lab/alethicinsight-member-platform) |
 | Candidate exam kit, cleaning code and downloads | [recruitment-exam-kit](https://github.com/CUMT-Alethic-Insight-Lab/recruitment-exam-kit) |
 | Onboarding in depth | [open-onboarding](https://github.com/CUMT-Alethic-Insight-Lab/open-onboarding) |
 | Curated AI resources | [awesome-ai](https://github.com/CUMT-Alethic-Insight-Lab/awesome-ai) |
@@ -85,12 +84,13 @@
 | Review policy | [Review Policy](https://github.com/CUMT-Alethic-Insight-Lab/governance-public/blob/main/docs/en/review-policy.md) / [Review 规则](https://github.com/CUMT-Alethic-Insight-Lab/governance-public/blob/main/docs/zh-CN/review-policy.md) |
 | Core-only charter draft | [Internal charter draft](https://github.com/CUMT-Alethic-Insight-Lab/internal-governance/blob/main/docs/zh-CN/charter-draft.md) |
 
-## Public Repositories
+## Project Repositories
 
 | Repository | Purpose |
 | --- | --- |
 | [website](https://github.com/CUMT-Alethic-Insight-Lab/website) | Public website source and deployment |
-| [alethicinsight-platform](https://github.com/CUMT-Alethic-Insight-Lab/alethicinsight-platform) | Current shared source for two products: recruitment exam and internal member/organization platform; runtime isolation pending correction PR |
+| [alethicinsight-platform](https://github.com/CUMT-Alethic-Insight-Lab/alethicinsight-platform) | Recruitment exam server and exam API |
+| [alethicinsight-member-platform](https://github.com/CUMT-Alethic-Insight-Lab/alethicinsight-member-platform) | Member workflows, organization API and single-package CLI/MCP internal infra |
 | [recruitment-exam-kit](https://github.com/CUMT-Alethic-Insight-Lab/recruitment-exam-kit) | Candidate exam kit, open session-cleaning code, and installer |
 | [join-us](https://github.com/CUMT-Alethic-Insight-Lab/join-us) | Public recruitment process and preparation guide |
 | [governance-public](https://github.com/CUMT-Alethic-Insight-Lab/governance-public) | Public governance documents |

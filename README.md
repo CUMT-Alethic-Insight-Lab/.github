@@ -4,7 +4,7 @@ This repository defines organization-level public profile content, contribution 
 
 ## Product Navigation
 
-The [organization profile](profile/README.md#two-products--两个产品) distinguishes the recruitment exam from the internal member and organization platform, currently in the [same source repository](https://github.com/CUMT-Alethic-Insight-Lab/alethicinsight-platform). The candidate [recruitment-exam-kit](https://github.com/CUMT-Alethic-Insight-Lab/recruitment-exam-kit) retains its name; organization CLI/MCP is one internal infra package, not a kit dependency. Runtime isolation into `member-platform/server` and `member-platform/infra/...` is pending correction PR review and merge; documentation does not establish isolation or deployment. See [current boundaries and the audit baseline](MIGRATION.md).
+The [organization profile](profile/README.md#two-products--两个产品) presents two products: the recruitment exam in [alethicinsight-platform](https://github.com/CUMT-Alethic-Insight-Lab/alethicinsight-platform), and the internal member and organization platform in [alethicinsight-member-platform](https://github.com/CUMT-Alethic-Insight-Lab/alethicinsight-member-platform). The candidate [recruitment-exam-kit](https://github.com/CUMT-Alethic-Insight-Lab/recruitment-exam-kit) retains its name; organization CLI/MCP remains one internal infra package, not a kit dependency. Maintainer-only isolation history and cross-repository publication dependencies are recorded in [MIGRATION.md](MIGRATION.md).
 
 ## Languages
 
