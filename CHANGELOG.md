@@ -2,7 +2,13 @@
 
 本文件只记录组织级仓库结构和公共规则变化。各项目的功能版本与发布说明仍由对应仓库维护。
 
-## 2026-11-17：两个独立产品仓的导航
+## 2026-11-17 追加：考试仓恢复原名
+
+- 经用户明确授权，考试仓由 `alethicinsight-platform` 恢复为 [recruitment-exam-platform](https://github.com/CUMT-Alethic-Insight-Lab/recruitment-exam-platform)，GitHub 保留旧 URL 重定向；当前产品导航已使用恢复后的名称，`recruitment-exam-kit` 名称不变。
+- 根 `server/` 仅承担考试运行；`main` 中仍有待 [PR #7](https://github.com/CUMT-Alethic-Insight-Lab/recruitment-exam-platform/pull/7) 移除的 `member-platform/` 副本，不宣称考试仓已经源码去重。
+- 已核对独立成员仓公开可访问；早先发布依赖与保留旧仓名的记录保留为历史，当前以 [MIGRATION.md](MIGRATION.md) 追加记录为准。本次不合并 PR、不部署、不迁移真实数据。
+
+## 2026-11-17：两个独立产品仓的导航（早先阶段记录）
 
 - 隔离 PR [#6](https://github.com/CUMT-Alethic-Insight-Lab/alethicinsight-platform/pull/6) 已合并，合并提交与核对时的 `main` 为 `9dc7229`；“源码待纠正 PR 合入”不再是当前状态。
 - 内部成员与组织产品的独立仓名确定为 `alethicinsight-member-platform`，承接原 `member-platform/` 子树；考试保留 `alethicinsight-platform`，考生套件保留 `recruitment-exam-kit`。

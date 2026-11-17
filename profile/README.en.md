@@ -12,7 +12,7 @@
 
 | Product | Current entry and boundary |
 | --- | --- |
-| Recruitment exam | [Current exam-server repository](https://github.com/CUMT-Alethic-Insight-Lab/alethicinsight-platform) and candidate [recruitment-exam-kit](https://github.com/CUMT-Alethic-Insight-Lab/recruitment-exam-kit); the kit name stays unchanged. |
+| Recruitment exam | [Current exam-server repository](https://github.com/CUMT-Alethic-Insight-Lab/recruitment-exam-platform) and candidate [recruitment-exam-kit](https://github.com/CUMT-Alethic-Insight-Lab/recruitment-exam-kit); the kit name stays unchanged. |
 | Internal member and organization platform | [alethicinsight-member-platform](https://github.com/CUMT-Alethic-Insight-Lab/alethicinsight-member-platform): member workflows, organization API and a single CLI/MCP infra package. This is an internal product, not an exam extension or candidate-kit dependency. |
 
 We work across:

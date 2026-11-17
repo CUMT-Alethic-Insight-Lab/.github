@@ -6,8 +6,8 @@
 
 | 仓库 | 当前职责 |
 | --- | --- |
-| `alethicinsight-platform` | 招新考试服务端，根 `server/` 仅承担考试；保留现有远端名称，不再作为成员产品的维护入口 |
-| `alethicinsight-member-platform` | 独立成员与组织产品仓，承接原 `member-platform/` 子树：成员事务、组织 API 和同包 CLI/MCP 内部 infra；远端发布是本次导航 PR 的合入前置条件 |
+| `recruitment-exam-platform` | 招新考试服务端，根 `server/` 仅承担考试运行；`main` 的 `member-platform/` 副本仍待 PR #7 移除，不作为成员产品维护入口 |
+| `alethicinsight-member-platform` | 独立成员与组织产品仓，承接原 `member-platform/` 子树：成员事务、组织 API 和同包 CLI/MCP 内部 infra；已核对远端公开可访问 |
 | `recruitment-exam-kit` | 考生本地考试套件、会话清洗、安装器与局域网接收工具；名称保持不变 |
 | `website` | 公共官网及官网专属内容与交互 |
 | `open-onboarding` | 学习路径、实践顺序与协作入门 |
@@ -16,7 +16,14 @@
 
 CLI 与本地 MCP 是同一**内部** infra 接口包，不拆成独立 MCP 产品仓，也不是考试套件依赖。`infra-handoff` 仅承担私有运维交接，不作为平台源码仓或公共客户端发行源。`Alethic-Insight-Frontend-Templates` 不属于本次调整范围。
 
-## 2026-11-17：隔离已合并，成员产品独立仓发布
+## 2026-11-17 追加：考试仓恢复原名
+
+- 经用户明确授权，考试仓已从 `alethicinsight-platform` 恢复为 [recruitment-exam-platform](https://github.com/CUMT-Alethic-Insight-Lab/recruitment-exam-platform)；GitHub 保留旧 URL 重定向，当前导航使用恢复后的名称。下方早先“保留现有仓名”和改名记录是历史状态，不再描述当前命名。
+- 已核对根 `server/` 仅承担考试运行；远端 `main=9dc7229cae1ee709c89a243e035b2685a11f2475` 仍含 `member-platform/` 副本，待 OPEN 的 [PR #7](https://github.com/CUMT-Alethic-Insight-Lab/recruitment-exam-platform/pull/7) 移除。独立成员仓已发布不等于考试仓已完成源码去重。
+- 已通过 GitHub API 核对 [alethicinsight-member-platform](https://github.com/CUMT-Alethic-Insight-Lab/alethicinsight-member-platform) 为 PUBLIC、默认分支为 `main`；下方早先 API 404 与发布待确认是当时的核对结果，该可访问性前置条件现已满足。
+- `recruitment-exam-kit` 名称不变，OTA 元数据仍由考试仓审核发布；本次只更新文档并提交、推送现有导航 PR，不合并、不部署、不迁移数据，也不以仓名恢复宣称跨仓验收完成。
+
+## 2026-11-17：隔离已合并，成员产品独立仓发布（早先阶段记录）
 
 - 已核对隔离 [PR #6](https://github.com/CUMT-Alethic-Insight-Lab/alethicinsight-platform/pull/6) 为 MERGED，合并提交与核对时远端 `main` 为 `9dc7229cae1ee709c89a243e035b2685a11f2475`。下方“源码待纠正 PR 合入”仅是旧计划，不再描述当前状态。
 - 内部成员与组织平台的独立仓名确定为 [alethicinsight-member-platform](https://github.com/CUMT-Alethic-Insight-Lab/alethicinsight-member-platform)，从原 `member-platform/` 子树提取；新仓内的路径和开发入口以新仓 README 为准，不继续将旧仓子目录列为成员产品权威入口。

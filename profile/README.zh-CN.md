@@ -12,7 +12,7 @@
 
 | 产品 | 当前入口与边界 |
 | --- | --- |
-| 招新考试 | [考试服务端当前源码仓](https://github.com/CUMT-Alethic-Insight-Lab/alethicinsight-platform)与考生 [recruitment-exam-kit](https://github.com/CUMT-Alethic-Insight-Lab/recruitment-exam-kit) 套件；套件名称不变。 |
+| 招新考试 | [考试服务端当前源码仓](https://github.com/CUMT-Alethic-Insight-Lab/recruitment-exam-platform)与考生 [recruitment-exam-kit](https://github.com/CUMT-Alethic-Insight-Lab/recruitment-exam-kit) 套件；套件名称不变。 |
 | 内部成员与组织平台 | [alethicinsight-member-platform](https://github.com/CUMT-Alethic-Insight-Lab/alethicinsight-member-platform)：成员事务、组织 API 及同包 CLI/MCP。它是独立内部产品，不是考试增量或考生套件依赖。 |
 
 我们关注：

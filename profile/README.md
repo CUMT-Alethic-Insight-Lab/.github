@@ -36,7 +36,7 @@
 
 | Product 产品 | Entry and boundary 入口与边界 |
 | --- | --- |
-| Recruitment exam 招新考试 | [Exam server source / 考试服务端当前源码仓](https://github.com/CUMT-Alethic-Insight-Lab/alethicinsight-platform) + [recruitment-exam-kit](https://github.com/CUMT-Alethic-Insight-Lab/recruitment-exam-kit) candidate kit; the kit name stays unchanged. 考生套件名称不变。 |
+| Recruitment exam 招新考试 | [Exam server source / 考试服务端当前源码仓](https://github.com/CUMT-Alethic-Insight-Lab/recruitment-exam-platform) + [recruitment-exam-kit](https://github.com/CUMT-Alethic-Insight-Lab/recruitment-exam-kit) candidate kit; the kit name stays unchanged. 考生套件名称不变。 |
 | Internal member and organization platform 内部成员与组织平台 | [alethicinsight-member-platform](https://github.com/CUMT-Alethic-Insight-Lab/alethicinsight-member-platform): member workflows, organization API and a single CLI/MCP infra package. 成员事务、组织 API 与同包 CLI/MCP 属于内部产品，不是考试增量或考生套件依赖。 |
 
 ## Directions
@@ -57,7 +57,7 @@
 | Join the lab | [join-us](https://github.com/CUMT-Alethic-Insight-Lab/join-us) |
 | Recruitment process | [Process](https://github.com/CUMT-Alethic-Insight-Lab/join-us/blob/main/docs/en/process.md) / [招新流程](https://github.com/CUMT-Alethic-Insight-Lab/join-us/blob/main/docs/zh-CN/process.md) |
 | Preparation guide | [Preparation](https://github.com/CUMT-Alethic-Insight-Lab/join-us/blob/main/docs/en/preparation.md) / [准备建议](https://github.com/CUMT-Alethic-Insight-Lab/join-us/blob/main/docs/zh-CN/preparation.md) |
-| Recruitment exam server | [alethicinsight-platform](https://github.com/CUMT-Alethic-Insight-Lab/alethicinsight-platform) |
+| Recruitment exam server | [recruitment-exam-platform](https://github.com/CUMT-Alethic-Insight-Lab/recruitment-exam-platform) |
 | Internal member and organization platform | [alethicinsight-member-platform](https://github.com/CUMT-Alethic-Insight-Lab/alethicinsight-member-platform) |
 | Candidate exam kit, cleaning code and downloads | [recruitment-exam-kit](https://github.com/CUMT-Alethic-Insight-Lab/recruitment-exam-kit) |
 | Onboarding in depth | [open-onboarding](https://github.com/CUMT-Alethic-Insight-Lab/open-onboarding) |
@@ -89,7 +89,7 @@
 | Repository | Purpose |
 | --- | --- |
 | [website](https://github.com/CUMT-Alethic-Insight-Lab/website) | Public website source and deployment |
-| [alethicinsight-platform](https://github.com/CUMT-Alethic-Insight-Lab/alethicinsight-platform) | Recruitment exam server and exam API |
+| [recruitment-exam-platform](https://github.com/CUMT-Alethic-Insight-Lab/recruitment-exam-platform) | Recruitment exam server and exam API |
 | [alethicinsight-member-platform](https://github.com/CUMT-Alethic-Insight-Lab/alethicinsight-member-platform) | Member workflows, organization API and single-package CLI/MCP internal infra |
 | [recruitment-exam-kit](https://github.com/CUMT-Alethic-Insight-Lab/recruitment-exam-kit) | Candidate exam kit, open session-cleaning code, and installer |
 | [join-us](https://github.com/CUMT-Alethic-Insight-Lab/join-us) | Public recruitment process and preparation guide |
