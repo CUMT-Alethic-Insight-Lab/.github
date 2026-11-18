@@ -6,14 +6,37 @@
 
 | 仓库 | 当前职责 |
 | --- | --- |
-| `alethicinsight-platform` | 招新与组织业务服务端、成员网页、组织 API、部署配置，以及 `infra/interface/alethicinsight-cli` 公共接口包 |
+| `recruitment-exam-platform` | 招新考试服务端，根 `server/` 仅承担考试运行；`main` 的 `member-platform/` 副本仍待 PR #7 移除，不作为成员产品维护入口 |
+| `alethicinsight-member-platform` | 独立成员与组织产品仓，承接原 `member-platform/` 子树：成员事务、组织 API 和同包 CLI/MCP 内部 infra；已核对远端公开可访问 |
 | `recruitment-exam-kit` | 考生本地考试套件、会话清洗、安装器与局域网接收工具；名称保持不变 |
 | `website` | 公共官网及官网专属内容与交互 |
 | `open-onboarding` | 学习路径、实践顺序与协作入门 |
 | `awesome-ai` | 学习资源索引 |
 | `governance-public` | 正式公开制度 |
 
-CLI 与本地 MCP 是同一 infra 接口包，不拆成独立 MCP 产品仓。`infra-handoff` 继续承担私有运维交接，不作为公共客户端发行源。`Alethic-Insight-Frontend-Templates` 不属于本次调整范围。
+CLI 与本地 MCP 是同一**内部** infra 接口包，不拆成独立 MCP 产品仓，也不是考试套件依赖。`infra-handoff` 仅承担私有运维交接，不作为平台源码仓或公共客户端发行源。`Alethic-Insight-Frontend-Templates` 不属于本次调整范围。
+
+## 2026-11-17 追加：考试仓恢复原名
+
+- 经用户明确授权，考试仓已从 `alethicinsight-platform` 恢复为 [recruitment-exam-platform](https://github.com/CUMT-Alethic-Insight-Lab/recruitment-exam-platform)；GitHub 保留旧 URL 重定向，当前导航使用恢复后的名称。下方早先“保留现有仓名”和改名记录是历史状态，不再描述当前命名。
+- 已核对根 `server/` 仅承担考试运行；远端 `main=9dc7229cae1ee709c89a243e035b2685a11f2475` 仍含 `member-platform/` 副本，待 OPEN 的 [PR #7](https://github.com/CUMT-Alethic-Insight-Lab/recruitment-exam-platform/pull/7) 移除。独立成员仓已发布不等于考试仓已完成源码去重。
+- 已通过 GitHub API 核对 [alethicinsight-member-platform](https://github.com/CUMT-Alethic-Insight-Lab/alethicinsight-member-platform) 为 PUBLIC、默认分支为 `main`；下方早先 API 404 与发布待确认是当时的核对结果，该可访问性前置条件现已满足。
+- `recruitment-exam-kit` 名称不变，OTA 元数据仍由考试仓审核发布；本次只更新文档并提交、推送现有导航 PR，不合并、不部署、不迁移数据，也不以仓名恢复宣称跨仓验收完成。
+
+## 2026-11-17：隔离已合并，成员产品独立仓发布（早先阶段记录）
+
+- 已核对隔离 [PR #6](https://github.com/CUMT-Alethic-Insight-Lab/alethicinsight-platform/pull/6) 为 MERGED，合并提交与核对时远端 `main` 为 `9dc7229cae1ee709c89a243e035b2685a11f2475`。下方“源码待纠正 PR 合入”仅是旧计划，不再描述当前状态。
+- 内部成员与组织平台的独立仓名确定为 [alethicinsight-member-platform](https://github.com/CUMT-Alethic-Insight-Lab/alethicinsight-member-platform)，从原 `member-platform/` 子树提取；新仓内的路径和开发入口以新仓 README 为准，不继续将旧仓子目录列为成员产品权威入口。
+- 考试仓保留 [alethicinsight-platform](https://github.com/CUMT-Alethic-Insight-Lab/alethicinsight-platform)，不再擅自重命名；[recruitment-exam-kit](https://github.com/CUMT-Alethic-Insight-Lab/recruitment-exam-kit) 名称不变。
+- 新成员仓发布由产品维护者统一执行。本次核对新仓 API 返回 404，未确认其可访问；四个导航 PR 均应先标明该发布依赖，待发布确认后再合入，不把预定链接当作已完成发布的证据。
+- CLI/MCP 仍为内部 infra 同一发行包；不创建独立 MCP 仓、不变成考试依赖。`infra-handoff` 仅私有运维交接，`exam-archive` 与前端模板仓不在操作范围。
+- 本次仅纠正文档与导航，不进行生产部署、真实账号迁移或数据操作；源码隔离不等于跨仓兼容和运维切换验收。此前的测试记录属于对应代码工作，不是本次文档任务重跑的结果。
+
+## 2026-11-04 追加纠正（历史计划，已由 2026-11-17 更新取代）
+
+下方“已合入”与“已重命名”保留为历史事实，不代表运行隔离。审计确认 `origin/main=229e69c` 中组织 API 与考试共 DB、账号和启动流程，不能只改 README 冒称解耦。内部成员/组织平台不是考试增量。
+
+第一阶段在现有同源仓通过纠正 PR 审查 `member-platform/` 独立运行内部产品，根 `server/` 仅考试。**源码待纠正 PR 合入**，当前只链接现有仓库，不生成尚不存在的 `main/member-platform` 链接。远端重命名与独立仓映射另行处理；本次文档更正不进行生产部署、真实账号迁移或真实数据操作。
 
 ## 2026-11 分仓调整
 
